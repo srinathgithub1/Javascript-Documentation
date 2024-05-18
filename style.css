@@ -13,15 +13,21 @@
 h1{
     text-align: center;
     padding: 10px;
+    border-bottom:1px solid #ccc ;
 }
 a{
     text-decoration: none;
     color: black;
 }
+a p:hover{
+    background-color: #ccc;
+    transition: 0.2s ease-in-out;
+}
 a p{
     padding: 10px;
     font-size: 15px;
     font-weight: 520;
+    border-bottom: 1px solid #ccc;
 }
 body{
     display: flex;
