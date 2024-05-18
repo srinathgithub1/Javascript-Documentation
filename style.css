@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.side-bar{
+    width: 200px;
+    border: 1px solid black;
+    height: 100vh;
+    position:sticky;
+    top: 0;
+    margin-left: 0.2px;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a p{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 520;
+}
+body{
+    display: flex;
+    font-family: "Lato", sans-serif;
+}
+main{
+    padding: 30px;
+}
+p{
+    font-size: 12px;
+    font-weight: 500;
+}
+ul{
+    padding-left: 30px;
+    font-size: 10px;
+    font-weight: 400;
+}
+.code{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    background-color: azure;
+}
